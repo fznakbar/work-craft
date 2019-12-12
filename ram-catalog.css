@@ -1,0 +1,223 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrap {
+	margin: 0px auto;
+	width: 1050px;
+	min-height: 500px;
+	/*background-color: pink;*/
+	overflow: hidden;
+}
+
+#wrap h1, #wrap h4 {
+	margin: 50px auto;
+	text-align: center;
+}
+
+.container {
+	display: block;
+	margin: auto;
+	width: 1050px; 
+	min-height: 50px;
+	overflow: hidden;
+}
+.category {
+	float: left;
+	width: 200px;
+	height: 200px;
+	padding: 5px 5px;
+	/*background-color: lightblue;*/
+	overflow: hidden;
+}
+
+.category img {
+	width: 200px;
+	height: 200px;
+}
+
+.dimbox {
+	position: relative;
+	top: -224px;
+	width: 200px;
+	height: 200px;
+	background-color: rgba(0,0,0,0.5);
+	opacity: 0%;
+}
+
+.dimbox h2 {
+	display: block;
+	width: 200;
+	line-height: 200px;
+	position: relative;
+	top: 0px;
+	color: white;
+	text-align: center;
+	opacity: 0%;
+}
+
+.dimbox:hover, .dimbox h2:hover {
+	opacity: 100%;
+}
+
+.item {
+	float: left;
+	width: 300px;
+	height: 300px;
+	padding: 0px 25px 50px 25px;
+	/*background-color: lightblue;*/
+	overflow: hidden;
+}
+
+.item img {
+	width: 300px;
+	height: 300px;
+}
+
+.dimbox2 {
+	position: relative;
+	bottom: 204px;
+	width: 300px;
+	height: 200px;
+	/*background-color: rgba(0,0,0,0.5);*/
+	box-shadow: inset 0px -120px 45px -45px rgba(0,0,0,.85);
+	overflow: hidden;
+}
+
+.dimbox2 h2 {
+	float: left;
+	position: relative;
+	top: 90px;
+	left: 10px;
+	color: white;
+	text-align: left;
+	overflow: hidden;
+}
+
+.dimbox2 h3 {
+	float: right;
+	position: relative;
+	bottom: -150px;
+	right: 10px;
+	color: white;
+	text-align: right;
+	font-weight: 500;
+	font-style: italic;
+	overflow: hidden;
+}
+
+#pages {
+	width: 865px;
+	height: 50px;
+	margin: auto;
+}
+
+.pagebox {
+	display: inline;
+	float: left;
+	margin: 0px 15px;
+	height: 50px;
+	min-width: 50px;
+	max-width: 250px;
+	background-color: #5d4037;
+	opacity: 67%;
+	text-align: center;
+	line-height: 50px;
+}
+
+.pagebox:hover {
+	opacity: 100%;
+}
+
+.pagebox a {
+	display: block;
+	margin: 0px 15px;
+	color: #fff;
+}
+
+.current-page {
+	opacity: 100%;
+}
+
+.current-page a {
+	text-decoration: underline;
+}
+
+.dimmed-page, .dimmed-page:hover {
+	background-color: grey;
+	opacity: 33%;
+}
+
+.spacer {
+	width: auto;
+	height: 100px;
+}
+
+.copyright {
+	text-align: center;
+}
+
+
+#navbar {
+     display: flex;
+     width: 100%;
+     height: 100px;
+     top: 0;
+     left: 0;
+     background-color: #EFEBE9;
+}
+
+#logo {
+     width: 30%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.logo-craft-work {
+     width: 70px;
+}
+
+#search-body {
+     width: 80%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+#search-bar {
+     width: 100%;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+#search-bar input {
+     width: 80%;
+     height: 100%;
+     font-size: 18px;
+     padding-left: 15px;
+     border-radius: 5px;
+     border: none;
+     outline: none;
+}
+
+#keranjang {
+     width: 30%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.logo-keranjang img {
+     width: 35px;
+}
+
+#keranjang div {
+     margin: 15px;
+}
