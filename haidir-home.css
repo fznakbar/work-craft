@@ -7,7 +7,7 @@
 }
 
 .slide-wrapper {
-     width: 8616px;
+     width: 6720px;
      -webkit-animation: slide 18s ease infinite;
 }
 
@@ -37,15 +37,15 @@
      }
 
      60% {
-          margin-left: -3760px;
+          margin-left: -3360px;
      }
 
      70% {
-          margin-left: -3760px;
+          margin-left: -3360px;
      }
 
      80% {
-          margin-left: -5640px;
+          margin-left: -5040px;
      }
 }
 
@@ -57,8 +57,12 @@
      height: 723px;
 }
 
+#thi-pic img {
+     height: 723px;
+}
+
 #for-pic img {
-     height: 723spx;
+     height: 723px;
 }
 
 /* ============================================================== */
