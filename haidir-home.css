@@ -2,7 +2,7 @@
 
 #slideshow {
      overflow: hidden;
-     width: 1880px;
+     width: 1680px;
      margin: 0 auto;
 }
 
@@ -13,7 +13,7 @@
 
 .slide {
      float: left;
-     width: 1880px;
+     width: 1680px;
 }
 
 .slide-number {
@@ -29,11 +29,11 @@
      }
 
      30% {
-          margin-left: -1880px;
+          margin-left: -1680px;
      }
 
      50% {
-          margin-left: -1880px;
+          margin-left: -1680px;
      }
 
      60% {
