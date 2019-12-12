@@ -2,38 +2,66 @@
 
 #slideshow {
      overflow: hidden;
-     width: 2428px;
+     width: 1880px;
      margin: 0 auto;
-   }
-   
-   .slide-wrapper {
-     width: 9712px;
+}
+
+.slide-wrapper {
+     width: 8616px;
      -webkit-animation: slide 18s ease infinite;
-   }
-   
-   .slide {
+}
+
+.slide {
      float: left;
-     width: 2428px;
-   }
-   
-   .slide-number {
+     width: 1880px;
+}
+
+.slide-number {
      width: 100%;
      color: #000;
      text-align: center;
      font-size: 10em;
-   }
-   
-   @-webkit-keyframes slide {
-     20% {margin-left: 0px;}
-     30% {margin-left: -2428px;}
-     50% {margin-left: -2428px;}
-     60% {margin-left: -4856px;}
-     70% {margin-left: -4856px;}
-     80% {margin-left: -7284px;}
-   }
+}
+
+@-webkit-keyframes slide {
+     20% {
+          margin-left: 0px;
+     }
+
+     30% {
+          margin-left: -1880px;
+     }
+
+     50% {
+          margin-left: -1880px;
+     }
+
+     60% {
+          margin-left: -3760px;
+     }
+
+     70% {
+          margin-left: -3760px;
+     }
+
+     80% {
+          margin-left: -5640px;
+     }
+}
+
+#first-pic img {
+     height: 723px;
+}
+
+#sec-pic img {
+     height: 723px;
+}
+
+#for-pic img {
+     height: 723spx;
+}
 
 /* ============================================================== */
-
 
 * {
      margin: 0;
@@ -68,6 +96,7 @@
      justify-content: center;
      align-items: center;
 }
+
 /* .black-metal-img {
      width: 100%;
 } */
@@ -88,6 +117,7 @@
      border: none;
      outline: none;
 }
+
 
 #keranjang {
      width: 30%;
